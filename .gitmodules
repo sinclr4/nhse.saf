@@ -1,6 +1,3 @@
 [submodule "src/nhse.saf/themes/govukhugo"]
 	path = src/nhse.saf/themes/govukhugo
 	url = https://github.com/co-analysis/govukhugo.git
-[submodule "src/themes/govukhugo"]
-	path = src/themes/govukhugo
-	url = https://github.com/co-analysis/govukhugo.git
