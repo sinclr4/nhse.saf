@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>NHS England Solution Architecture on NHSE Solution Architecture</title><link>http://localhost:1313/</link><description>Recent content in NHS England Solution Architecture on NHSE Solution Architecture</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 14 May 2025 11:32:01 +0100</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml"/><item><title>Core Dimensions</title><link>http://localhost:1313/solution-architecture-framework/core-dimensions/</link><pubDate>Wed, 14 May 2025 11:32:01 +0100</pubDate><guid>http://localhost:1313/solution-architecture-framework/core-dimensions/</guid><description>&lt;h2 id="core-dimensions-of-the-saf" class="govuk-heading-l">Core Dimensions of the SAF&lt;/h2>
+&lt;p>The SAF is broken down into seven dimensions, each with a set of architectural requirements which will describe what elements need to be in place and to allow a subsequent appraisal of those elements and their appropriateness.&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>&lt;strong>Strategic Alignment, Vision, and Roadmap&lt;/strong>&lt;/th>
+ &lt;th>Describes how well the solution architecture aligns with our strategic direction, our policies, and principles.&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Re Use Principles and Development of Shared Services&lt;/strong>&lt;/td>
+ &lt;td>Are we building re-useable components, are we reusing what we have already in an effective manner?&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Documentation&lt;/strong>&lt;/td>
+ &lt;td>Are we documenting the architectures to an appropriate level of detail, are we following our standards around Enterprise Architecture tooling. Is documentation open and shared?&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Decision Making &amp;amp; Governance&lt;/strong>&lt;/td>
+ &lt;td>Are we following governance processes, managing risk and issues, communicating with our stakeholders? Are we managing technical debt? Do we have a framework in place to make decisions which is based are based on understanding need, options analysis, clear rationale, and management of trade-offs? Are we communicating those decisions?&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Technology Choices&lt;/strong>&lt;/td>
+ &lt;td>Are we making the right technology choices in line with our technology radar and other strategic choices? &lt;a href="https://radar.engineering.england.nhs.uk/" class="govuk-link" target="_blank" rel="noreferrer noopener">https://radar.engineering.england.nhs.uk/&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Non-Functional Design&lt;/strong>&lt;/td>
+ &lt;td>Do we understand the non-functional needs of the service, are we creating a solution which can meet those need and be flexible, without over engineering?&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Solution Design &amp;amp; Methods&lt;/strong>&lt;/td>
+ &lt;td>Are we following recognised industry best practice in our designs e.g. separation of concerns? Are we giving sufficient focus to ensure interoperability / integration is built into our designs from day 1, using the right patterns and standards?&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+
+&lt;h2 id="how-will-the-nhs-england-saf-be-used" class="govuk-heading-l">How Will the NHS England SaF be used&lt;/h2>
+
+&lt;h3 id="day-to-day-usage" class="govuk-heading-m">Day to Day Usage&lt;/h3>
+&lt;p>As part of the BAU activities of Solution Architects working within delivery teams we will expect them to use the SAF to help structure their activities, their approach to solutions design, documentation and decision making. The SAF will act as an “aide memoir” for Solution Architects to drive a consistent approach, regardless of whether they are permanent, contract or supplier colleague.&lt;/p></description></item><item><title>Framework Requirements</title><link>http://localhost:1313/solution-architecture-framework/framework-requirements/</link><pubDate>Wed, 14 May 2025 11:32:01 +0100</pubDate><guid>http://localhost:1313/solution-architecture-framework/framework-requirements/</guid><description>&lt;h3 id="strategic-alignment-vision-and-roadmap" class="govuk-heading-m">Strategic Alignment, Vision, and roadmap&lt;/h3>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>&lt;/th>
+ &lt;th>&lt;strong>Requirements&lt;/strong>&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>S01&lt;/td>
+ &lt;td>The solution should be aligned to stated strategy approved at an executive level e.g. TD Design Authority, P&amp;amp;P DA etc.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>S02&lt;/td>
+ &lt;td>We should be able to demonstrate which capabilities from the NHSE Business Capability Model the solution is realising, and any potential duplication identified&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>S03&lt;/td>
+ &lt;td>A well-formed and maintained product vision &amp;amp; roadmap should exist with appropriate detail around architecture elements&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>S04&lt;/td>
+ &lt;td>The solution design should be able to meet the stated user needs and overall business objectives/drivers&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+
+&lt;h3 id="decision-making--governance" class="govuk-heading-m">Decision Making &amp;amp; Governance&lt;/h3>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>&lt;/th>
+ &lt;th>&lt;strong>Requirements&lt;/strong>&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>DM01&lt;/td>
+ &lt;td>Where a solution or part of solution is seen as tactical, short term or introduces / persist tech &amp;amp; architecture debt, remediations plans should be in place and agreed with the relevant stakeholders and governance groups.&lt;!-- raw HTML omitted -->&lt;!-- raw HTML omitted -->Architecture Debt should be identified with implications, rationale and future mitigations plans (recorded in a Architecture Debt Register)&lt;!-- raw HTML omitted -->&lt;!-- raw HTML omitted -->Plans should be realistic and funded.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>DM02&lt;/td>
+ &lt;td>Spend control (GATS) and associated Government Digital Services &amp;amp; Service Design related guidance should be followed whilst developing the solution and be evidenced for service design &amp;amp; spend control reviews&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>DM03&lt;/td>
+ &lt;td>Architecture risks and issues should be managed effectively with the appropriate level of visibility and ownership&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>DM04&lt;/td>
+ &lt;td>There should be effective and commensurate stakeholder involvement with respects to solution design and architecture decisions.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>DM05&lt;/td>
+ &lt;td>The solution design and architecture decisions should be managed effectively through local programme design authorities and TRG at the appropriate stages of the lifecycle.&lt;!-- raw HTML omitted -->&lt;!-- raw HTML omitted -->The relevant Lead Architects and SMEs are engaged and are supportive&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>DM06&lt;/td>
+ &lt;td>The overall approach to architecture governance should be appropriate and commensurate with the nature of the solution&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>DM07&lt;/td>
+ &lt;td>All Architecture decisions should be documented with a lightweight Architecture Decision Record with options and clear rationale.&lt;!-- raw HTML omitted -->&lt;!-- raw HTML omitted -->E.g. &lt;a href="https://github.com/NHSDigital/software-engineering-quality-framework/blob/main/any-decision-record-template.md" class="govuk-link" target="_blank" rel="noreferrer noopener">software-engineering-quality-framework/any-decision-record-template.md at main · NHSDigital/software-engineering-quality-framework · GitHub&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>DM08&lt;/td>
+ &lt;td>All decision-making should be structured i.e. identify key strategic drivers, user need assess options against drivers, present rationale, clarity on trade-offs, dependencies, risks and issues understood etc.&lt;!-- raw HTML omitted -->&lt;!-- raw HTML omitted --> &lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+
+&lt;h3 id="solution-design--methods" class="govuk-heading-m">Solution Design &amp;amp; Methods&lt;/h3>
+&lt;!-- raw HTML omitted -->
+
+&lt;h3 id="technology-choices" class="govuk-heading-m">Technology Choices&lt;/h3>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>&lt;/th>
+ &lt;th>&lt;strong>Requirements&lt;/strong>&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>T1&lt;/td>
+ &lt;td>Technology choices should be made in line with the NHS England Technology Radar, corporate direction and wider industry trends using the associated processes to support decision making . &lt;a href="https://radar.engineering.england.nhs.uk/index.html" class="govuk-link" target="_blank" rel="noreferrer noopener">Tech Radar&lt;/a>&lt;!-- raw HTML omitted -->&lt;!-- raw HTML omitted -->(Note there are overlaps with the Engineering red lines, ensure a consistent response and do not repeat assessments)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>T2&lt;/td>
+ &lt;td>Technology choices should be appropriate to the problem and non-functional needs i.e. we are as equally aware of over engineering as we are to under engineering.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>T3&lt;/td>
+ &lt;td>An appraisal should be made of any vendor lock considerations and associated risks, and these are understood and accepted/mitigated.&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+
+&lt;h3 id="non-functional-profile" class="govuk-heading-m">Non-Functional Profile&lt;/h3>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>&lt;/th>
+ &lt;th>&lt;strong>Requirement&lt;/strong>&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>NF1&lt;/td>
+ &lt;td>Solutions should incorporate workload observability and understand service health&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>NF2&lt;/td>
+ &lt;td>Reliability &amp;amp; Resilience needs should be defined (in terms of standard NHS England service levels) and solution mechanisms to meet these needs are defined including metrics such as RTO, RPO etc.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>NF3&lt;/td>
+ &lt;td>An overall volume and performance model should exist and includes business-realistic exceptional scenarios.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>NF4&lt;/td>
+ &lt;td>Methods to measure sustainability to establish baseline and show improvement should be defined.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>NF5&lt;/td>
+ &lt;td>Audit &amp;amp; logging requirements should be defined, and the solution can support them &lt;a href="https://www.ncsc.gov.uk/collection/device-security-guidance/managing-deployed-devices/logging-and-protective-monitoring" class="govuk-link" target="_blank" rel="noreferrer noopener">https://www.ncsc.gov.uk/collection/device-security-guidance/managing-deployed-devices/logging-and-protective-monitoring&lt;/a>&lt;!-- raw HTML omitted -->&lt;!-- raw HTML omitted -->&lt;a href="https://www.ncsc.gov.uk/collection/cloud/the-cloud-security-principles/principle-13-audit-information-and-alerting-for-customers" class="govuk-link" target="_blank" rel="noreferrer noopener">https://www.ncsc.gov.uk/collection/cloud/the-cloud-security-principles/principle-13-audit-information-and-alerting-for-customers&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>NF6&lt;/strong>&lt;/td>
+ &lt;td>&lt;strong>Disaster Recovery &amp;amp; Business Continuity&lt;/strong> There should be clear requirements (commensurate with service levels) around DR &amp;amp; BC (and a pragmatic approach taken with regards DR/BC events planned for) Continuity plans and supporting documentation should reflect the requirements, technical &amp;amp; architecture constraints etc.&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+
+&lt;h3 id="re-use-principles-and-development-of-shared-services" class="govuk-heading-m">Re Use Principles and Development of Shared Services&lt;/h3>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>&lt;/th>
+ &lt;th>&lt;strong>Requirements&lt;/strong>&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>RU1&lt;/td>
+ &lt;td>If reusing existing capabilities, we should have confidence that any additional functionality required can be sensibly and cost effectively added to the existing service i.e we are not bending something out of shape&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>RU2&lt;/td>
+ &lt;td>For new capabilities we should identify/recognise the potential re use opportunities which may drive design decisions, benefits etc.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>RU3&lt;/td>
+ &lt;td>We should reuse capabilities as defined below:-&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>&lt;strong>Capability&lt;/strong>&lt;/th>
+ &lt;th>&lt;strong>Re Use&lt;/strong>&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Cohorting&lt;/td>
+ &lt;td>CaaS&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Citizen Messaging&lt;/td>
+ &lt;td>NHS Notify&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Staff Messaging&lt;/td>
+ &lt;td>GOV.Notify and nhs.connect&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Application Messaging&lt;/td>
+ &lt;td>MESH or alternative as required&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Demographics/MPI&lt;/td>
+ &lt;td>PDS&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Eventing&lt;/td>
+ &lt;td>MNS&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>API Management&lt;/td>
+ &lt;td>NHSE API Management Platform (which uses Apigee underneath)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Identity&lt;/td>
+ &lt;td>CIS2 Auth/NHS Mail SSO/NHS login&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Logging &amp;amp; Monitoring&lt;/td>
+ &lt;td>Splunk/Sentinel/Cribl/Grafana (tbc – pending ODIN)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Data Analytics&lt;/td>
+ &lt;td>FDP/CDP/DPS - FDP First&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Public facing web presence&lt;/td>
+ &lt;td>NHS.uk&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Patient Flags&lt;/td>
+ &lt;td>Flags service&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Organisational Data&lt;/td>
+ &lt;td>ODS&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>&lt;strong>Shared Services&lt;/strong>&lt;/th>
+ &lt;th>&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;strong>Capability&lt;/strong>&lt;/td>
+ &lt;td>&lt;strong>Re Use&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Auditing&lt;/td>
+ &lt;td>Standard Audit tools/PARS (when live)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Cyber Security Monitoring&lt;/td>
+ &lt;td>CSOC&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Service Management &amp;amp; Support&lt;/td>
+ &lt;td>ServiceNow&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+
+&lt;h3 id="documentation" class="govuk-heading-m">Documentation&lt;/h3>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>&lt;/th>
+ &lt;th>&lt;strong>Requirements&lt;/strong>&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>D01&lt;/td>
+ &lt;td>All architecture documentation should be maintained (with supporting processes and change control) within the appropriate NHS England knowledge store(s) e.g. Aalto, SharePoint, Confluence&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>D02&lt;/td>
+ &lt;td>Documentation should be published “open by default” and exceptions handled according to policy i.e. sensitivity etc&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>D03&lt;/td>
+ &lt;td>The architecture documentation should be appropriate in scope and quality for the solution covering (but not exclusively) :-&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;ul>
+&lt;li>Architecture Vision&lt;/li>
+&lt;li>Architecture Roadmap&lt;/li>
+&lt;li>Layer Diagrams&lt;/li>
+&lt;li>Capability Model and Solution Mapping&lt;/li>
+&lt;li>Non functional requirements&lt;/li>
+&lt;li>Conceptual Architecture&lt;/li>
+&lt;li>Logical Architecture&lt;/li>
+&lt;li>Physical (including network, infrastructure etc.)&lt;/li>
+&lt;li>Solution Architecture Overview (SDO)&lt;/li>
+&lt;li>Key Architecture Decisions (KADs)&lt;/li>
+&lt;li>Data Models&lt;/li>
+&lt;li>Data Flows&lt;/li>
+&lt;li>API Specifications&lt;/li>
+&lt;li>Volume and Performance Models&lt;/li>
+&lt;li>Architecture Decision Records&lt;/li>
+&lt;li>Assumption, Risks, Issues and Dependencies&lt;/li>
+&lt;li>Cyber Assessment Framework compliance&lt;/li>
+&lt;/ul></description></item><item><title>About</title><link>http://localhost:1313/about/</link><pubDate>Fri, 22 Jan 2021 00:00:00 +0000</pubDate><guid>http://localhost:1313/about/</guid><description>&lt;p>Blah&lt;/p></description></item></channel></rss>

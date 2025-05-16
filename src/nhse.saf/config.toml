@@ -1,0 +1,17 @@
+baseURL: https://your.site/
+languageCode: en-gb
+title: My Site Title
+theme: govukhugo
+publishDir: docs
+canonifyurls: true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+params:
+  govuk: false
+  logotext: ABC
+  product: Product Name
+  phase: alpha
